@@ -1,0 +1,23 @@
+*** 28/8 ***
+#1 s 22/8 16:42 e 25/8 morning
+PARAMETERS:
+cascadeDirName: trained_classifiers/defect_classifier
+vecFileName: samples.vec
+bgFileName: negatives.txt
+numPos: 1000
+numNeg: 1462
+numStages: 20
+precalcValBufSize[Mb] : 1024
+precalcIdxBufSize[Mb] : 1024
+stageType: BOOST
+featureType: HAAR
+sampleWidth: 46
+sampleHeight: 46
+boostType: GAB
+minHitRate: 0.999
+maxFalseAlarmRate: 0.5
+weightTrimRate: 0.95
+maxDepth: 1
+maxWeakCount: 100
+mode: ALL
+
